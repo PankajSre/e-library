@@ -1,0 +1,594 @@
+<test-cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookIsbnMinThirteen</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookIsbnMinThirteen</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentEmailMaxHunderd</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentEmailMaxHunderd</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentStreamMaxHunderd</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentStreamMaxHunderd</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentNameMinThree</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentNameMinThree</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentEmailMinThree</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentEmailMinThree</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentNameNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentNameNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookNameMinThree</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookNameMinThree</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookIsbnMaxThirteen</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookIsbnMaxThirteen</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookIssueDetailsIssueDateNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookIssueDetailsIssueDateNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookAuthorMaxHunderd</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookAuthorMaxHunderd</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookAuthorNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookAuthorNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookPublisherMaxHunderd</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookPublisherMaxHunderd</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentStreamMinThree</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentStreamMinThree</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentAddressMaxHunderd</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentAddressMaxHunderd</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookPublishedYearMax2030</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookPublishedYearMax2030</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentDateOfBirthNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentDateOfBirthNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookPublishedYearMin2020</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookPublishedYearMin2020</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookNameNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookNameNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookEditionMaxHunderd</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookEditionMaxHunderd</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookEditionNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookEditionNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookIssueDetailsExpectedReturnedDateNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookIssueDetailsExpectedReturnedDateNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookIssueDetailsActualReturnedDateNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookIssueDetailsActualReturnedDateNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentPhoneNumberNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentPhoneNumberNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookEditionMinThree</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookEditionMinThree</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentStreamNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentStreamNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookPublisherNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookPublisherNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookIssueDetailsStudentIdNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookIssueDetailsStudentIdNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookStreamMinThree</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookStreamMinThree</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookPublishedYearNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookPublishedYearNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookIssueDetailsExpectedReturnedDateNotPastDate</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookIssueDetailsExpectedReturnedDateNotPastDate</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentNameMaxHunderd</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentNameMaxHunderd</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookIssueDetailsFineMinZero</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookIssueDetailsFineMinZero</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookAuthorMinThree</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookAuthorMinThree</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentEmailNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentEmailNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentPhoneNumberMaxTen</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentPhoneNumberMaxTen</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentPhoneNumberMinTen</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentPhoneNumberMinTen</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookIssueDetailsBookIdNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookIssueDetailsBookIdNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentAddressNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentAddressNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookIssueDetailsIsReturnedNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookIssueDetailsIsReturnedNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentEmailValidFormat</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentEmailValidFormat</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookStreamNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookStreamNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookStreamMaxHunderd</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookStreamMaxHunderd</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookIssueStatusNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookIssueStatusNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookIssueDetailsFineNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookIssueDetailsFineNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookIsbnNotNull</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookIsbnNotNull</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentaddressMinThree</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentaddressMinThree</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookIssueDetailsActualReturnedDateNotPastDate</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookIssueDetailsActualReturnedDateNotPastDate</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookNameMaxHundred</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookNameMaxHundred</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testStudentDateOfBirthNotFutureDate</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testStudentDateOfBirthNotFutureDate</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundary</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBookPublisherMinThree</name>
+		<weight>3</weight>
+		<mandatory>true</mandatory>
+		<desc>testBookPublisherMinThree</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Exception</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testGetAllBooksByStreamInvalidStreamException</name>
+		<weight>5</weight>
+		<mandatory>true</mandatory>
+		<desc>testGetAllBooksByStreamInvalidStreamException</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Exception</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testAddBookInvalidBookDetailsException</name>
+		<weight>5</weight>
+		<mandatory>true</mandatory>
+		<desc>testAddBookInvalidBookDetailsException</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Exception</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testIssueBookBookNotFoundException</name>
+		<weight>5</weight>
+		<mandatory>true</mandatory>
+		<desc>testIssueBookBookNotFoundException</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Exception</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testIssueBookAlreadyIssuedException</name>
+		<weight>5</weight>
+		<mandatory>true</mandatory>
+		<desc>testIssueBookAlreadyIssuedException</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Exception</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testReturnBookIssueDetailsNotFoundException</name>
+		<weight>5</weight>
+		<mandatory>true</mandatory>
+		<desc>testReturnBookIssueDetailsNotFoundException</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Exception</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testGetAllBooksByStreamInvalidStreamException</name>
+		<weight>5</weight>
+		<mandatory>true</mandatory>
+		<desc>testGetAllBooksByStreamInvalidStreamException</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Exception</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testRegisterStudentInvalidStudentDetailsException</name>
+		<weight>5</weight>
+		<mandatory>true</mandatory>
+		<desc>testRegisterStudentInvalidStudentDetailsException</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Exception</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testIssueBookStudentNotFoundException</name>
+		<weight>5</weight>
+		<mandatory>true</mandatory>
+		<desc>testIssueBookStudentNotFoundException</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testgetAllIssuedBooksWithFine</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testgetAllIssuedBooksWithFine</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testgetAllIssuedBooksWithFineIsServiceMethodCalled</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testgetAllIssuedBooksWithFineIsServiceMethodCalled</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testGetAllIssuedBooks</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testGetAllIssuedBooks</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testSaveBook</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testSaveBook</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testGetAllIssuedBooksIsServiceMethodCalled</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testGetAllIssuedBooksIsServiceMethodCalled</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testGetAllBooksByStreamIsServiceMethodCalled</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testGetAllBooksByStreamIsServiceMethodCalled</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testSaveBookIsServiceMethodCalled</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testSaveBookIsServiceMethodCalled</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testGetAllBooksByStream</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testGetAllBooksByStream</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testGetAllIssuedBooksByStudentIdIsServiceMethodCalled</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testGetAllIssuedBooksByStudentIdIsServiceMethodCalled</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testGetAllIssuedBooksByStudentId</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testGetAllIssuedBooksByStudentId</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testRegisterStudentIsServiceMethodCalled</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testRegisterStudentIsServiceMethodCalled</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testIssueBookIsServiceMethodCalled</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testIssueBookIsServiceMethodCalled</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testReturnBookIsServiceMethodCalled</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testReturnBookIsServiceMethodCalled</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testReturnBook</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testReturnBook</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testIssueBook</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testIssueBook</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testRegisterStudent</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testRegisterStudent</desc>
+	</cases>
+</test-cases>
