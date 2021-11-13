@@ -22,6 +22,7 @@ import com.iiht.training.elibrary.dto.StudentDto;
 import com.iiht.training.elibrary.exception.InvalidStreamException;
 import com.iiht.training.elibrary.exception.InvalidStudentDetailsException;
 import com.iiht.training.elibrary.service.BookIssueDetailsService;
+import com.iiht.training.elibrary.service.BooksService;
 import com.iiht.training.elibrary.service.StudentService;
 
 @RestController
@@ -32,7 +33,10 @@ public class StudentController {
 	private StudentService studentService;
 	@Autowired
 	private BookIssueDetailsService service;
-	
+
+	@Autowired
+	private BooksService booksService;
+
 	@PostMapping("/register")
 	public ResponseEntity<StudentDto> registerStudent(@Valid @RequestBody StudentDto studentDto, BindingResult result) {
 		if (result.hasErrors()) {
@@ -46,7 +50,7 @@ public class StudentController {
 	public ResponseEntity<List<BooksDto>> getAllBooksByStream(@PathVariable String stream) {
 		List<String> streams = Arrays.asList("Science", "Commerce", "Arts", "Management", "Media");
 		if (streams.contains(stream)) {
-			List<BooksDto> list = studentService.getAllBooksByStream(stream);
+			List<BooksDto> list = booksService.getAllBooksByStream(stream);
 			return new ResponseEntity<List<BooksDto>>(list, HttpStatus.OK);
 		} else {
 			throw new InvalidStreamException("The Stream " + stream + " does not exists");
@@ -72,6 +76,14 @@ public class StudentController {
 	public ResponseEntity<BookIssueDetailsDto> returnBook(@PathVariable Long id) {
 		BookIssueDetailsDto returnBook = service.returnBook(id);
 		return new ResponseEntity<BookIssueDetailsDto>(returnBook, HttpStatus.OK);
+
+	}
+
+	@GetMapping("/books/by/{id}")
+	public ResponseEntity<List<BooksDto>> getAllBooksByStudentStream(@PathVariable Long id) {
+		List<BooksDto> booksByStudentStream = studentService.getAllBooksByStudentStream(id);
+
+		return new ResponseEntity<List<BooksDto>>(booksByStudentStream, HttpStatus.OK);
 
 	}
 }

@@ -9,7 +9,8 @@ public interface StudentService {
 
 	public StudentDto registerStudent(StudentDto studentDto);
 	
-	public List<BooksDto> getAllBooksByStream(String stream);
+	public List<BooksDto> getAllBooksByStudentStream(Long id);
+	public StudentDto findById(Long id);
 	
 	
 }

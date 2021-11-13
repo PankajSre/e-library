@@ -102,7 +102,6 @@ public class StudentControllerTest {
 
 	}
 
-
 	@Test
 	public void testIssueBook() throws Exception {
 		BookIssueDetailsDto detailsDto = MasterData.getBookIssueDetailsDto();
@@ -209,6 +208,44 @@ public class StudentControllerTest {
 			}
 		});
 		RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/students/return/1")
+				.contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON);
+
+		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+
+		yakshaAssert(currentTest(), count[0] == 1 ? true : false, businessTestFile);
+
+	}
+
+	@Test
+	public void testGetAllBooksByStudentStream() throws Exception {
+		List<BooksDto> booksDtos = MasterData.getBooksDtoList();
+
+		when(this.studentService.getAllBooksByStudentStream(1L)).thenReturn(booksDtos);
+		RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/students/books/by/1")
+				.contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON);
+
+		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+		yakshaAssert(currentTest(),
+				(result.getResponse().getContentAsString().contentEquals(MasterData.asJsonString(booksDtos)) ? "true"
+						: "false"),
+				businessTestFile);
+
+	}
+
+	@Test
+	public void testGetAllBooksByStudentStreamIsServiceMethodCalled() throws Exception {
+		final int count[] = new int[1];
+		List<BooksDto> booksDtos = MasterData.getBooksDtoList();
+		when(this.studentService.getAllBooksByStudentStream(1L)).then(new Answer<List<BooksDto>>() {
+
+			@Override
+			public List<BooksDto> answer(InvocationOnMock invocation) throws Throwable {
+				// TODO Auto-generated method stub
+				count[0]++;
+				return booksDtos;
+			}
+		});
+		RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/students/books/by/1")
 				.contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON);
 
 		MvcResult result = mockMvc.perform(requestBuilder).andReturn();

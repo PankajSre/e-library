@@ -538,6 +538,14 @@
 <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
 		<test-case-type>Functional</test-case-type>
 		<expected-ouput>true</expected-ouput>
+		<name>testGetAllBooksByStudentStream</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testGetAllBooksByStudentStream</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
 		<name>testGetAllIssuedBooksByStudentId</name>
 		<weight>8</weight>
 		<mandatory>true</mandatory>
@@ -566,6 +574,14 @@
 		<weight>8</weight>
 		<mandatory>true</mandatory>
 		<desc>testReturnBookIsServiceMethodCalled</desc>
+	</cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testGetAllBooksByStudentStreamIsServiceMethodCalled</name>
+		<weight>8</weight>
+		<mandatory>true</mandatory>
+		<desc>testGetAllBooksByStudentStreamIsServiceMethodCalled</desc>
 	</cases>
 <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
 		<test-case-type>Functional</test-case-type>
